@@ -2,6 +2,11 @@
 Sharing project files for IEEE Signal Processing Cup 2020
 
 1. Install the python module rosbag either using pip or conda
+2. Install dependencies
+   ```bash
+   conda install -c conda-forge ros-rosbag
+   ```
+
 2. Before running the 'read_bag_file.py' specify the bag file you wish to read and run the script
 3. The script saves the data read from the bag file, saves numeric data to a pickle file as a dictionary
 4. The script saves the images in a separate folder
